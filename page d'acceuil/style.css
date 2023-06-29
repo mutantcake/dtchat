@@ -63,3 +63,37 @@ background-color: #F5F5F5;
     background-color: #2F465A;
     bottom: 10px;
 }
+.dchat{
+   
+    background-color: #2F465A;
+}
+.message{
+    position: relative;
+    bottom: 200px;
+    background-color: #2F465A;
+    color: #F5F5F5;
+    font-size: 20px;
+}
+.qui{
+    position: relative;
+    background-color: #2F465A;
+    width: 100%;
+    height: 300px;
+    bottom: 220px;
+    color: #F5F5F5;
+    font-size: 25px;
+}
+footer{
+    position: relative;
+    background-color: black;
+    text-align: center;
+    color: #F5F5F5;
+    width: 100%;
+    height: 100px;
+    bottom: 220px;
+    
+
+}
+.tout{
+    top: -150px;
+}

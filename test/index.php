@@ -7,8 +7,11 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <form action="connexion.php" method="post"> 
+    <form action="../connexion.php" method="post"> 
         <h2>connexion</h2>
+        <?php if (isset($_GET['error'])) { ?>
+            <p class="error"><?php echo $_GET['error']; ?></p>
+            <?php } ?>
         <label>Pseudo</label>
         <input type="text" name="pseudo" placeholder="pseudo"><br>
 
